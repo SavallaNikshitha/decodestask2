@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Bridge Platform</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img id="logoPreview" src="images/default-logo.png">
+
+<label for="logoUpload" class="upload-btn">
+<i class="fa-solid fa-camera"></i> Upload Logo
+</label>
+
+<input
+type="file"
+id="logoUpload"
+accept="image/*"
+hidden>
+
+<h2>Skill Bridge</h2>
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#courses">Courses</a></li>
+
+<li><a href="#internship">Internships</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div>
+
+<button class="login">Login</button>
+
+<button class="register">Register</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>
+
+Learn Skills,
+Build Career,
+Get Placed
+
+</h1>
+
+<p>
+
+Skill Bridge Platform helps students
+learn industry-ready skills through
+courses, internships and projects.
+
+</p>
+
+<button>
+
+Explore Courses
+
+</button>
+
+</div>
+
+<div class="hero-image">
+
+<img
+id="heroPreview"
+src="images/default-hero.jpg">
+
+<label
+for="heroUpload"
+class="upload-btn">
+
+📷 Upload Hero Image
+
+</label>
+
+<input
+type="file"
+id="heroUpload"
+accept="image/*"
+hidden>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<div class="about-image">
+
+<img
+id="aboutPreview"
+src="images/default-about.jpg">
+
+<label
+for="aboutUpload"
+class="upload-btn">
+
+📷 Upload About Image
+
+</label>
+
+<input
+type="file"
+id="aboutUpload"
+accept="image/*"
+hidden>
+
+</div>
+
+<div class="about-content">
+
+<h2>
+
+About Skill Bridge
+
+</h2>
+
+<p>
+
+Skill Bridge Platform connects
+students with industry experts,
+companies and modern learning.
+
+Students can learn,
+practice and become
+job-ready.
+
+</p>
+
+<div class="cards">
+
+<div>
+
+<h3>5000+</h3>
+
+<p>Students</p>
+
+</div>
+
+<div>
+
+<h3>250+</h3>
+
+<p>Courses</p>
+
+</div>
+
+<div>
+
+<h3>120+</h3>
+
+<p>Mentors</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- Courses Section -->
+
+<section class="courses" id="courses">
+
+<h2 class="section-title">Popular Courses</h2>
+
+<div class="course-container">
+
+<div class="course-card">
+
+<img id="course1Preview" src="images/course1.jpg">
+
+<label for="course1Upload" class="upload-btn">
+📷 Upload Image
+</label>
+
+<input type="file" id="course1Upload" accept="image/*" hidden>
+
+<h3>Web Development</h3>
+
+<p>HTML, CSS, JavaScript, Bootstrap, React</p>
+
+<button>Enroll Now</button>
+
+</div>
+
+<div class="course-card">
+
+<img id="course2Preview" src="images/course2.jpg">
+
+<label for="course2Upload" class="upload-btn">
+📷 Upload Image
+</label>
+
+<input type="file" id="course2Upload" accept="image/*" hidden>
+
+<h3>Python Programming</h3>
+
+<p>Python, Django, Flask, APIs</p>
+
+<button>Enroll Now</button>
+
+</div>
+
+<div class="course-card">
+
+<img id="course3Preview" src="images/course3.jpg">
+
+<label for="course3Upload" class="upload-btn">
+📷 Upload Image
+</label>
+
+<input type="file" id="course3Upload" accept="image/*" hidden>
+
+<h3>Artificial Intelligence</h3>
+
+<p>Machine Learning & Deep Learning</p>
+
+<button>Enroll Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Internship -->
+
+<section class="internship" id="internship">
+
+<h2 class="section-title">Internship Program</h2>
+
+<div class="internship-box">
+
+<img id="internPreview" src="images/internship.jpg">
+
+<label for="internUpload" class="upload-btn">
+📷 Upload Image
+</label>
+
+<input type="file" id="internUpload" accept="image/*" hidden>
+
+<div>
+
+<h3>Industry Internship</h3>
+
+<p>
+
+Gain real-world experience through live projects,
+mentorship and company-based internships.
+
+</p>
+
+<button>Apply Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery" id="gallery">
+
+<h2 class="section-title">Gallery</h2>
+
+<div class="gallery-grid">
+
+<div>
+
+<img id="g1Preview" src="images/gallery1.jpg">
+
+<label for="g1Upload" class="upload-btn">📷 Upload</label>
+
+<input type="file" id="g1Upload" accept="image/*" hidden>
+
+</div>
+
+<div>
+
+<img id="g2Preview" src="images/gallery2.jpg">
+
+<label for="g2Upload" class="upload-btn">📷 Upload</label>
+
+<input type="file" id="g2Upload" accept="image/*" hidden>
+
+</div>
+
+<div>
+
+<img id="g3Preview" src="images/gallery3.jpg">
+
+<label for="g3Upload" class="upload-btn">📷 Upload</label>
+
+<input type="file" id="g3Upload" accept="image/*" hidden>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="text" placeholder="Phone Number">
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+</form>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<h2>Skill Bridge Platform</h2>
+
+<p>
+
+Connecting Students With Skills, Internships &
+Career Opportunities.
+
+</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-linkedin"></i>
+
+<i class="fab fa-github"></i>
+
+</div>
+
+<p>
+
+© 2026 Skill Bridge Platform. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
